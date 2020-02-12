@@ -13,6 +13,7 @@ function getNumberOfLicenses() {
    var daysBefore = 2;
    var dateBefore =  new Date(tryDate - (daysBefore*(24*3600*1000)));
    var dateString = Utilities.formatDate(dateBefore, "GMT", "yyyy-MM-dd");
+   // the number below is the number of free licenses below which you want an alert.
    var alertLimit = 45;
  
    
