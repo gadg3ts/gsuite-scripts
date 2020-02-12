@@ -2,6 +2,7 @@
 // 2019-02-25 smeacher
 // If you're already using GAM, then it might help to run this under the same account, as that user will then 
 // already have all the required permissions and API access...
+// this works for the Gsuite Business SKU, if you're using another, you may want to change the accounts: parameters
  
 function getNumberOfLicenses() {
   var tryDate = new Date();
